@@ -1,8 +1,10 @@
 Reason for making:
+
 To practice writing Java I have created a UFC pound for pound rankings quiz/test. (I know its not the most sufficient code)
 To test my friend's knowledge on the subject as we follow MMA (mostly UFC). 
 
 The quiz/test, how to play:
+
 First you will be prompted to enter an athlete that you believe to be in the top 15 (1-15) pound for pound list.
 If your answer is wrong you will be prompted to enter another athlete.
 If right you will then be asked to enter where you believe the athlete is in the pound for pound rankings e.g. 3 (meaning 3rd in the pound for pound rankings)
@@ -10,6 +12,7 @@ Once both the athlete and their correct ranking have been entered, the pound4pou
 When every correct answer has been given the loop will end and your wrong answers count will be printed out like so: wrong athletes given (athletes not in the p4p list), wrong rankings given (right athlete, wrong ranking) and total wrong answers.
 
 Problems I am looking to fix:
+
 At the minute you can only enter the second name of the athlete (bar the p4p No.1 athlete). (I changed the top athlete, so either of his names can be entered but I am hesitant to change everyone's as some have the same first name.
 There are no capital letters in the answers so entering a surname starting with a capital will give a wrong answer. (working to change this)
 At the minute you need to finish the quiz/test for it to stop/exit loop. I hope to change this to the player being able to quite/give up and once the player has exited the loop without completing, all the none given answers will be filled in and the list will print out so they can see it.
