@@ -27,8 +27,8 @@ public class IfElseUFC
                 System.out.println("Please enter a fighter's surname that you believe is in the pound4pound rankings: ");
                 fighter = keyboard.next();
 
-                isFighterInList = fighter.equals(makhachev) || fighter.equals(jones) || fighter.equals(volkanovski) || fighter.equals(edwards) || fighter.equals(pereira) || fighter.equals(oliveira) || fighter.equals(strickland) || fighter.equals(omalley) ||
-                        fighter.equals(adesanya) || fighter.equals(pantoja) || fighter.equals(sterling) || fighter.equals(aspinall) || fighter.equals(holloway) || fighter.equals(usman) || fighter.equals(prochazka);
+                isFighterInList = fighter.equalsIgnoreCase(makhachev) || fighter.equalsIgnoreCase(jones) || fighter.equalsIgnoreCase(volkanovski) || fighter.equalsIgnoreCase(edwards) || fighter.equalsIgnoreCase(pereira) || fighter.equalsIgnoreCase(oliveira) || fighter.equalsIgnoreCase(strickland) || fighter.equalsIgnoreCase(omalley) ||
+                        fighter.equalsIgnoreCase(adesanya) || fighter.equalsIgnoreCase(pantoja) || fighter.equalsIgnoreCase(sterling) || fighter.equalsIgnoreCase(aspinall) || fighter.equalsIgnoreCase(holloway) || fighter.equalsIgnoreCase(usman) || fighter.equalsIgnoreCase(prochazka);
 
                 if (isFighterInList)
                 {
@@ -42,7 +42,7 @@ public class IfElseUFC
             } while (!isFighterInList);//do while
 
 
-            if (fighter.equals(makhachev))
+            if (fighter.equalsIgnoreCase(makhachev))
             {
                 System.out.println("what rank is " + fighter + " in the pound4pound list (1-15): ");
                 rank = keyboard.nextInt();
@@ -60,7 +60,7 @@ public class IfElseUFC
                 System.out.println("1. " + rank1 + "\n2. " + rank2 + "\n3. " + rank3 + "\n4. " + rank4 + "\n5. " + rank5 + "\n6. " + rank6 + "\n7. " + rank7 + "\n8. " + rank8 + "\n9. " + rank9 + "\n10. " + rank10 + "\n11." + rank11 + "\n12. " + rank12 + "\n13. " + rank13 + "\n14. " + rank14 + "\n15. " + rank15);
             }//if
 
-            if (fighter.equals(jones))
+            if (fighter.equalsIgnoreCase(jones))
             {
                 System.out.println("what rank is " + fighter + " in the pound4pound list (1-15): ");
                 rank = keyboard.nextInt();
@@ -78,7 +78,7 @@ public class IfElseUFC
                 System.out.println("1. " + rank1 + "\n2. " + rank2 + "\n3. " + rank3 + "\n4. " + rank4 + "\n5. " + rank5 + "\n6. " + rank6 + "\n7. " + rank7 + "\n8. " + rank8 + "\n9. " + rank9 + "\n10. " + rank10 + "\n11." + rank11 + "\n12. " + rank12 + "\n13. " + rank13 + "\n14. " + rank14 + "\n15. " + rank15);
             }//if
 
-            if (fighter.equals(volkanovski))
+            if (fighter.equalsIgnoreCase(volkanovski))
             {
                 System.out.println("what rank is " + fighter + " in the pound4pound list (1-15): ");
                 rank = keyboard.nextInt();
@@ -96,7 +96,7 @@ public class IfElseUFC
                 System.out.println("1. " + rank1 + "\n2. " + rank2 + "\n3. " + rank3 + "\n4. " + rank4 + "\n5. " + rank5 + "\n6. " + rank6 + "\n7. " + rank7 + "\n8. " + rank8 + "\n9. " + rank9 + "\n10. " + rank10 + "\n11." + rank11 + "\n12. " + rank12 + "\n13. " + rank13 + "\n14. " + rank14 + "\n15. " + rank15);
             }//if
 
-            if (fighter.equals(edwards))
+            if (fighter.equalsIgnoreCase(edwards))
             {
                 System.out.println("what rank is " + fighter + " in the pound4pound list (1-15): ");
                 rank = keyboard.nextInt();
@@ -114,7 +114,7 @@ public class IfElseUFC
                 System.out.println("1. " + rank1 + "\n2. " + rank2 + "\n3. " + rank3 + "\n4. " + rank4 + "\n5. " + rank5 + "\n6. " + rank6 + "\n7. " + rank7 + "\n8. " + rank8 + "\n9. " + rank9 + "\n10. " + rank10 + "\n11." + rank11 + "\n12. " + rank12 + "\n13. " + rank13 + "\n14. " + rank14 + "\n15. " + rank15);
             }//if
 
-            if (fighter.equals(pereira))
+            if (fighter.equalsIgnoreCase(pereira))
             {
                 System.out.println("what rank is " + fighter + " in the pound4pound list (1-15): ");
                 rank = keyboard.nextInt();
@@ -132,7 +132,7 @@ public class IfElseUFC
                 System.out.println("1. " + rank1 + "\n2. " + rank2 + "\n3. " + rank3 + "\n4. " + rank4 + "\n5. " + rank5 + "\n6. " + rank6 + "\n7. " + rank7 + "\n8. " + rank8 + "\n9. " + rank9 + "\n10. " + rank10 + "\n11." + rank11 + "\n12. " + rank12 + "\n13. " + rank13 + "\n14. " + rank14 + "\n15. " + rank15);
             }//if
 
-            if (fighter.equals(oliveira))
+            if (fighter.equalsIgnoreCase(oliveira))
             {
                 System.out.println("what rank is " + fighter + " in the pound4pound list (1-15): ");
                 rank = keyboard.nextInt();
@@ -150,7 +150,7 @@ public class IfElseUFC
                 System.out.println("1. " + rank1 + "\n2. " + rank2 + "\n3. " + rank3 + "\n4. " + rank4 + "\n5. " + rank5 + "\n6. " + rank6 + "\n7. " + rank7 + "\n8. " + rank8 + "\n9. " + rank9 + "\n10. " + rank10 + "\n11." + rank11 + "\n12. " + rank12 + "\n13. " + rank13 + "\n14. " + rank14 + "\n15. " + rank15);
             }//if
 
-            if (fighter.equals(strickland))
+            if (fighter.equalsIgnoreCase(strickland))
             {
                 System.out.println("what rank is " + fighter + " in the pound4pound list (1-15): ");
                 rank = keyboard.nextInt();
@@ -168,7 +168,7 @@ public class IfElseUFC
                 System.out.println("1. " + rank1 + "\n2. " + rank2 + "\n3. " + rank3 + "\n4. " + rank4 + "\n5. " + rank5 + "\n6. " + rank6 + "\n7. " + rank7 + "\n8. " + rank8 + "\n9. " + rank9 + "\n10. " + rank10 + "\n11." + rank11 + "\n12. " + rank12 + "\n13. " + rank13 + "\n14. " + rank14 + "\n15. " + rank15);
             }//if
 
-            if (fighter.equals(omalley))
+            if (fighter.equalsIgnoreCase(omalley))
             {
                 System.out.println("what rank is " + fighter + " in the pound4pound list (1-15): ");
                 rank = keyboard.nextInt();
@@ -186,7 +186,7 @@ public class IfElseUFC
                 System.out.println("1. " + rank1 + "\n2. " + rank2 + "\n3. " + rank3 + "\n4. " + rank4 + "\n5. " + rank5 + "\n6. " + rank6 + "\n7. " + rank7 + "\n8. " + rank8 + "\n9. " + rank9 + "\n10. " + rank10 + "\n11." + rank11 + "\n12. " + rank12 + "\n13. " + rank13 + "\n14. " + rank14 + "\n15. " + rank15);
             }//if
 
-            if (fighter.equals(adesanya))
+            if (fighter.equalsIgnoreCase(adesanya))
             {
                 System.out.println("what rank is " + fighter + " in the pound4pound list (1-15): ");
                 rank = keyboard.nextInt();
@@ -204,7 +204,7 @@ public class IfElseUFC
                 System.out.println("1. " + rank1 + "\n2. " + rank2 + "\n3. " + rank3 + "\n4. " + rank4 + "\n5. " + rank5 + "\n6. " + rank6 + "\n7. " + rank7 + "\n8. " + rank8 + "\n9. " + rank9 + "\n10. " + rank10 + "\n11." + rank11 + "\n12. " + rank12 + "\n13. " + rank13 + "\n14. " + rank14 + "\n15. " + rank15);
             }//if
 
-            if (fighter.equals(pantoja))
+            if (fighter.equalsIgnoreCase(pantoja))
             {
                 System.out.println("what rank is " + fighter + " in the pound4pound list (1-15): ");
                 rank = keyboard.nextInt();
@@ -222,7 +222,7 @@ public class IfElseUFC
                 System.out.println("1. " + rank1 + "\n2. " + rank2 + "\n3. " + rank3 + "\n4. " + rank4 + "\n5. " + rank5 + "\n6. " + rank6 + "\n7. " + rank7 + "\n8. " + rank8 + "\n9. " + rank9 + "\n10. " + rank10 + "\n11." + rank11 + "\n12. " + rank12 + "\n13. " + rank13 + "\n14. " + rank14 + "\n15. " + rank15);
             }// if
 
-            if (fighter.equals(sterling))
+            if (fighter.equalsIgnoreCase(sterling))
             {
                 System.out.println("what rank is " + fighter + " in the pound4pound list (1-15): ");
                 rank = keyboard.nextInt();
@@ -240,7 +240,7 @@ public class IfElseUFC
                 System.out.println("1. " + rank1 + "\n2. " + rank2 + "\n3. " + rank3 + "\n4. " + rank4 + "\n5. " + rank5 + "\n6. " + rank6 + "\n7. " + rank7 + "\n8. " + rank8 + "\n9. " + rank9 + "\n10. " + rank10 + "\n11." + rank11 + "\n12. " + rank12 + "\n13. " + rank13 + "\n14. " + rank14 + "\n15. " + rank15);
             }// if
 
-            if (fighter.equals(aspinall))
+            if (fighter.equalsIgnoreCase(aspinall))
             {
                 System.out.println("what rank is " + fighter + " in the pound4pound list (1-15): ");
                 rank = keyboard.nextInt();
@@ -258,7 +258,7 @@ public class IfElseUFC
                 System.out.println("1. " + rank1 + "\n2. " + rank2 + "\n3. " + rank3 + "\n4. " + rank4 + "\n5. " + rank5 + "\n6. " + rank6 + "\n7. " + rank7 + "\n8. " + rank8 + "\n9. " + rank9 + "\n10. " + rank10 + "\n11." + rank11 + "\n12. " + rank12 + "\n13. " + rank13 + "\n14. " + rank14 + "\n15. " + rank15);
             }// if
 
-            if (fighter.equals(holloway))
+            if (fighter.equalsIgnoreCase(holloway))
             {
                 System.out.println("what rank is " + fighter + " in the pound4pound list (1-15): ");
                 rank = keyboard.nextInt();
@@ -276,7 +276,7 @@ public class IfElseUFC
                 System.out.println("1. " + rank1 + "\n2. " + rank2 + "\n3. " + rank3 + "\n4. " + rank4 + "\n5. " + rank5 + "\n6. " + rank6 + "\n7. " + rank7 + "\n8. " + rank8 + "\n9. " + rank9 + "\n10. " + rank10 + "\n11." + rank11 + "\n12. " + rank12 + "\n13. " + rank13 + "\n14. " + rank14 + "\n15. " + rank15);
             }// if
 
-            if (fighter.equals(usman))
+            if (fighter.equalsIgnoreCase(usman))
             {
                 System.out.println("what rank is " + fighter + " in the pound4pound list (1-15): ");
                 rank = keyboard.nextInt();
@@ -294,7 +294,7 @@ public class IfElseUFC
                 System.out.println("1. " + rank1 + "\n2. " + rank2 + "\n3. " + rank3 + "\n4. " + rank4 + "\n5. " + rank5 + "\n6. " + rank6 + "\n7. " + rank7 + "\n8. " + rank8 + "\n9. " + rank9 + "\n10. " + rank10 + "\n11." + rank11 + "\n12. " + rank12 + "\n13. " + rank13 + "\n14. " + rank14 + "\n15. " + rank15);
             }// if
 
-            if (fighter.equals(prochazka))
+            if (fighter.equalsIgnoreCase(prochazka))
             {
                 System.out.println("what rank is " + fighter + " in the pound4pound list (1-15): ");
                 rank = keyboard.nextInt();
@@ -311,7 +311,7 @@ public class IfElseUFC
                 rank15 = fighter;
                 System.out.println("1. " + rank1 + "\n2. " + rank2 + "\n3. " + rank3 + "\n4. " + rank4 + "\n5. " + rank5 + "\n6. " + rank6 + "\n7. " + rank7 + "\n8. " + rank8 + "\n9. " + rank9 + "\n10. " + rank10 + "\n11." + rank11 + "\n12. " + rank12 + "\n13. " + rank13 + "\n14. " + rank14 + "\n15. " + rank15);
             }// if
-        } while (!rank1.equals(makhachev) || !rank2.equals(jones) || !rank3.equals(volkanovski) || !rank4.equals(edwards) || !rank5.equals(pereira) || !rank6.equals(oliveira) || !rank7.equals(strickland) || !rank8.equals(omalley) || !rank9.equals(adesanya) || !rank10.equals(pantoja) || !rank11.equals(sterling) || !rank12.equals(aspinall) || !rank13.equals(holloway) || !rank14.equals(usman) || !rank15.equals(prochazka));
+        } while (!rank1.equalsIgnoreCase(makhachev) || !rank2.equalsIgnoreCase(jones) || !rank3.equalsIgnoreCase(volkanovski) || !rank4.equalsIgnoreCase(edwards) || !rank5.equalsIgnoreCase(pereira) || !rank6.equalsIgnoreCase(oliveira) || !rank7.equalsIgnoreCase(strickland) || !rank8.equalsIgnoreCase(omalley) || !rank9.equalsIgnoreCase(adesanya) || !rank10.equalsIgnoreCase(pantoja) || !rank11.equalsIgnoreCase(sterling) || !rank12.equalsIgnoreCase(aspinall) || !rank13.equalsIgnoreCase(holloway) || !rank14.equalsIgnoreCase(usman) || !rank15.equalsIgnoreCase(prochazka));
 
         totalWrongAnswers = wrongAnswers + rankingsWrongAnswers;
         System.out.println("Congratulations! You completed the pound4pound list\nWrong fighters given: " + wrongAnswers + "\nwrong ranking given: " + rankingsWrongAnswers + "\nTotal incorrect answers: " + totalWrongAnswers);

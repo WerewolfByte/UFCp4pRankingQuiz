@@ -27,7 +27,7 @@ public class UFCweightClassQuiz
             System.out.println("Please enter the name of a weight division:");
             weightDivision = keyboard.nextLine();
 
-            isItAweightDivision = ((weightDivision.equals(lightHeavyweight) || (weightDivision.equals(weightClass[0])) || (weightDivision.equals(weightClass[1])) || (weightDivision.equals(weightClass[2])) || (weightDivision.equals(weightClass[3])) || (weightDivision.equals(weightClass[4])) || (weightDivision.equals(weightClass[5])) || (weightDivision.equals(weightClass[6])) || (weightDivision.equals(weightClass[7]))));
+            isItAweightDivision = ((weightDivision.equalsIgnoreCase(lightHeavyweight) || (weightDivision.equalsIgnoreCase(weightClass[0])) || (weightDivision.equalsIgnoreCase(weightClass[1])) || (weightDivision.equalsIgnoreCase(weightClass[2])) || (weightDivision.equalsIgnoreCase(weightClass[3])) || (weightDivision.equalsIgnoreCase(weightClass[4])) || (weightDivision.equalsIgnoreCase(weightClass[5])) || (weightDivision.equalsIgnoreCase(weightClass[6])) || (weightDivision.equalsIgnoreCase(weightClass[7]))));
 
             if (isItAweightDivision)
             {
@@ -50,7 +50,7 @@ public class UFCweightClassQuiz
                                guessWeight = keyboard.nextInt();
                                keyboard.nextLine();
 
-                               if ((guessWeight == heavyWeight) && (weightDivision.equals(weightClass[0])))
+                               if ((guessWeight == heavyWeight) && (weightDivision.equalsIgnoreCase(weightClass[0])))
                                {
                                    System.out.println("Correct, " + guessWeight + "lbs is the cut off weight for " + weightClass[0]);
                                    printWeightClass[0] = weightClass[0];
@@ -61,7 +61,7 @@ public class UFCweightClassQuiz
 
                                }//if
 
-                               else if ((guessWeight == lightheavyweight1) && (weightDivision.equals(weightClass[1])) || (weightDivision.equals(lightHeavyweight)))
+                               else if ((guessWeight == lightheavyweight1) && (weightDivision.equalsIgnoreCase(weightClass[1])) || (weightDivision.equalsIgnoreCase(lightHeavyweight)))
                                {
                                    System.out.println("Correct, " + guessWeight + "lbs is the cut off weight for " + weightClass[1]);
                                    printWeightClass[1] = weightClass[1];
@@ -72,7 +72,7 @@ public class UFCweightClassQuiz
 
                                }//else if
 
-                                    else if ((guessWeight == middleweight) && (weightDivision.equals(weightClass[2])))
+                                    else if ((guessWeight == middleweight) && (weightDivision.equalsIgnoreCase(weightClass[2])))
                                     {
                                         System.out.println("Correct, " + guessWeight + "lbs is the cut off weight for " + weightClass[2]);
                                         printWeightClass[2] = weightClass[2];
@@ -83,7 +83,7 @@ public class UFCweightClassQuiz
 
                                     }//else if
 
-                                        else if ((guessWeight == welterweight) && (weightDivision.equals(weightClass[3])))
+                                        else if ((guessWeight == welterweight) && (weightDivision.equalsIgnoreCase(weightClass[3])))
                                         {
                                             System.out.println("Correct, " + guessWeight + "lbs is the cut off weight for " + weightClass[3]);
                                             printWeightClass[3] = weightClass[3];
@@ -94,7 +94,7 @@ public class UFCweightClassQuiz
 
                                         }//else if
 
-                                            else if ((guessWeight == lightweight) && (weightDivision.equals(weightClass[4])))
+                                            else if ((guessWeight == lightweight) && (weightDivision.equalsIgnoreCase(weightClass[4])))
                                             {
                                                 System.out.println("Correct, " + guessWeight + "lbs is the cut off weight for " + weightClass[4]);
                                                 printWeightClass[4] = weightClass[4];
@@ -105,7 +105,7 @@ public class UFCweightClassQuiz
 
                                             }//else if
 
-                                                else if ((guessWeight == featherweight) && (weightDivision.equals(weightClass[5])))
+                                                else if ((guessWeight == featherweight) && (weightDivision.equalsIgnoreCase(weightClass[5])))
                                                 {
                                                     System.out.println("Correct, " + guessWeight + "lbs is the cut off weight for " + weightClass[5]);
                                                     printWeightClass[5] = weightClass[5];
@@ -116,7 +116,7 @@ public class UFCweightClassQuiz
 
                                                 }//else if
 
-                                                    else if ((guessWeight == bantamweight) && (weightDivision.equals(weightClass[6])))
+                                                    else if ((guessWeight == bantamweight) && (weightDivision.equalsIgnoreCase(weightClass[6])))
                                                     {
                                                         System.out.println("Correct, " + guessWeight + "lbs is the cut off weight for " + weightClass[6]);
                                                         printWeightClass[6] = weightClass[6];
@@ -127,7 +127,7 @@ public class UFCweightClassQuiz
 
                                                     }//else if
 
-                                                        else if ((guessWeight == flyweight) && (weightDivision.equals(weightClass[7])))
+                                                        else if ((guessWeight == flyweight) && (weightDivision.equalsIgnoreCase(weightClass[7])))
                                                         {
                                                             System.out.println("Correct, " + guessWeight + "lbs is the cut off weight for " + weightClass[7]);
                                                             printWeightClass[7] = weightClass[7];
